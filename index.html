@@ -296,7 +296,7 @@ input:invalid {
   <h3 class="w3-center">THE BOARD</h3>
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l2 m6 w3-margin-bottom">
-      <div class="w3-card w3-white">
+      <div class="w3-card w3-white autoflow">
         <img src="images/board/inkiad.jpg" alt="Inkiad" style="width:100%">
         <div class="w3-container">
           <h3>Inkiad Ahmed</h3>
@@ -313,7 +313,7 @@ input:invalid {
       </div>
     </div>
     <div class="w3-col l2 m6 w3-margin-bottom">
-      <div class="w3-card w3-white">
+      <div class="w3-card w3-white autoflow">
         <img src="images/board/spencer.jpg" alt="Spencer" style="width:100%">
         <div class="w3-container">
           <h3>Spencer Kammerman</h3>
@@ -331,7 +331,7 @@ input:invalid {
       </div>
     </div>
     <div class="w3-col l2 m6 w3-margin-bottom">
-      <div class="w3-card w3-white">
+      <div class="w3-card w3-white autoflow">
         <img src="images/board/jessica.jpg" alt="Jessica" style="width:100%">
         <div class="w3-container">
           <h3>Jessica Li</h3>
@@ -349,7 +349,7 @@ input:invalid {
       </div>
     </div>
     <div class="w3-col l2 m6 w3-margin-bottom">
-      <div class="w3-card w3-white">
+      <div class="w3-card w3-white autoflow">
         <img src="images/board/micah.jpg" alt="Micah" style="width:100%">
         <div class="w3-container">
           <h3>Micah Raney</h3>
@@ -368,7 +368,7 @@ input:invalid {
       </div>
     </div>
     <div class="w3-col l2 m6 w3-margin-bottom">
-        <div class="w3-card w3-white">
+      <div class="w3-card w3-white autoflow">
           <img src="images/board/angela.jpg" alt="Angela" style="width:100%">
           <div class="w3-container">
             <h3>Angela Li</h3>
@@ -384,9 +384,9 @@ input:invalid {
             <p><a href="mailto:yixual8@uci.edu" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
           </div>
         </div>
-      </div>
+    </div>
     <div class="w3-col l2 m6 w3-margin-bottom">
-            <div class="w3-card w3-white">
+      <div class="w3-card w3-white autoflow">
               <img src="images/board/greta.jpg" alt="Greta" style="width:100%">
               <div class="w3-container">
                 <h3>Greta Yu</h3>
@@ -401,7 +401,7 @@ input:invalid {
                 <p><a href="mailto:@uci.edu" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
               </div>
             </div>
-          </div>
+    </div>
   </div>
 
 
@@ -410,24 +410,18 @@ input:invalid {
 
 
 <!-- Contact Section -->
-<div class="w3-container w3-text-white bgimg-contact" style="padding:128px 16px" id="contact">
+<div class="w3-center w3-container w3-text-white bgimg-contact" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Questions? Let's get in touch. We'll actually read it, we promise!</p>
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-margin-left w3-margin-right">
-      <form method="POST" target="_blank" action="zotmail.php">
-        <p><input class="w3-input w3-border" type="text" name="name" id="name" placeholder="Name" required name="Name"></p>
-        <p><input class="w3-input w3-border" type="email" name="email" id="email" placeholder="Email" required name="Email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required></p>
-        <p><input class="w3-input w3-border" type="text" name="subject" id="subject" placeholder="Subject" required name="Subject"></p>
-        <p><textarea class="w3-input w3-border" rows="5" type="text" name="message" id="message" placeholder="Message" required name="Message"></textarea>
-        <p>
-          <button class="w3-button w3-black" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
-        </p>
-      </form>
-    </div>
-  </div>
+  <p class="w3-center w3-large">Questions? Let's get in touch. Use the form
+     below or email us at zotbotics@gmail.com
+  </p>
+  <br>
+  <a class="w3-accent w3-shadow w3-large" href="https://docs.google.com/forms/d/e/1FAIpQLScnDl63KdRrqTzqVLqjS-C75RiggsEhYIRGmR1fEZbQGj7Yag/viewform?usp=sf_link">
+    <button class="w3-button w3-text-white w3-transition-medium w3-padding-large">
+      Contact Us
+    </button>
+  </a>
+
 </div>
 
 <!-- Footer -->
@@ -473,6 +467,26 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
+
+
+function autoflow(){
+    var i;
+    var x = document.getElementsByClassName("autoflow");
+    var min = 0;
+
+    for (i = 0; i < x.length; i++) {
+       if(x[i].clientHeight > min){
+         min = x[i].clientHeight;
+       }
+    }
+    for (i = 0; i < x.length; i++) {
+       x[i].style.height = min + "px";
+    }
+}
+autoflow();
+window.onresize = autoflow;
+
+
 </script>
 
 <!-- Smooth Scrolling thanks to https://github.com/cferdinandi/smooth-scroll -->
