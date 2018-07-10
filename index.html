@@ -470,13 +470,19 @@ function w3_close() {
 
 
 function autoflow(){
+
     var i;
+    var maxID;
     var x = document.getElementsByClassName("autoflow");
     var min = 0;
 
     for (i = 0; i < x.length; i++) {
-       if(x[i].clientHeight > min){
-         min = x[i].clientHeight;
+       x[i].style.height = "auto";
+    }
+
+    for (i = 0; i < x.length; i++) {
+       if(x[i].scrollHeight > min){
+         min = x[i].scrollHeight;
        }
     }
     for (i = 0; i < x.length; i++) {
