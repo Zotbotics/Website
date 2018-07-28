@@ -7,6 +7,17 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
+<head>
+  <!-- Include Common assets: header and footer-->
+  <script src="jquery.js"></script>
+  <script>
+  $(function(){
+    $("#navbar").load("navbar.html");
+    $("footer").load("footer.html");
+  });
+  </script>
+</head>
+
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 body, html {
@@ -50,36 +61,7 @@ input:invalid {
 }
 </style>
 <body>
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide w3-transition-medium"><img src="images/textlogo.png" height="25px" alt="ZOTBOTICS"></a>
-    <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hover-text-white w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button w3-transition-medium"><i class="fas fa-info"></i> ABOUT</a>
-      <a href="#board" class="w3-bar-item w3-button w3-transition-medium"><i class="fas fa-users"></i> BOARD</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-transition-medium"><i class="fas fa-paper-plane"></i> CONTACT</a>
-      <a href="http://zotbotics.slack.com/signup" class="w3-bar-item w3-button w3-transition-medium"><i class="fab fa-slack"></i> SLACK</a>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOT5D6_1Hef3ULSHCiIz4FVYoDIIog0-RVhsu41iPuyPov-w/viewform?usp=sf_link" class="w3-bar-item w3-button w3-text-white w3-transition-medium w3-accent"><i class="fas fa-hands-helping"></i> SIGN UP</a>
-    </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-</div>
-
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-    <a href="#about" class="w3-bar-item w3-button w3-transition-medium">ABOUT</a>
-    <a href="#board" class="w3-bar-item w3-button w3-transition-medium">BOARD</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-transition-medium">CONTACT</a>
-    <a href="http://zotbotics.slack.com/signup" class="w3-bar-item w3-button w3-transition-medium">SLACK</a>
-</nav>
-
+<div id="navbar"></div>
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container" id="home">
 
