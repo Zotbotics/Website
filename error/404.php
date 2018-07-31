@@ -33,7 +33,7 @@ input:invalid {
 <!-- Header with full-height image -->
 <div class="bgimg-error w3-display-container w3-center w3-padding-64" id="home">
   <div class="w3-display-middle" style="width:90%">
-    <p class="w3-jumbo">404: File Not Found</p>
+    <p class="w3-jumbo">404 File Not Found</p>
       <span class="w3-xlarge">Thanks a Zot! We can't find that...</span>
       <p><a href="/" class="w3-button w3-accent w3-text-white w3-padding-large w3-large w3-margin-top w3-transition-medium">
         Homepage
