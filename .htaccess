@@ -18,3 +18,6 @@ Redirect 301 /constitution /files/constitution.pdf
 
 # Backwards compatibility
 Redirect 301 /constitution.pdf /files/constitution.pdf
+
+# Redirect all html to php
+RedirectMatch 301 (.*)\.html$ $1.php

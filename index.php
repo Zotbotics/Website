@@ -1,24 +1,7 @@
 <!DOCTYPE html>
 <html>
 <title>Zotbotics</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-<link rel="stylesheet" href="/assets/css/style.css">
-<link rel="stylesheet" href="/assets/css/normalize.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
-<head>
-  <!-- Include Common assets: header and footer-->
-  <script src="/assets/js/jquery.js"></script>
-  <script>
-  $(function(){
-    $("#navbar").load("navbar.html");
-    $("#footer").load("footer.html");
-    $("#legal").load("legal.html");
-  });
-  </script>
-</head>
+<?php include("common/header.html"); ?>
 
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
@@ -63,7 +46,7 @@ input:invalid {
 }
 </style>
 <body>
-<div id="navbar"></div>
+<?php include("common/navbar.html"); ?>
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container" id="home">
 
@@ -318,44 +301,14 @@ input:invalid {
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64">
-  <div id="footer"></div>
+  <?php include("common/footer.html"); ?>
   <div>
     Cover Image: <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@ethanrobertson?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Ethan Robertson"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Ethan Robertson</span></a>
   </div>
-  <div id="legal"></div>
+  <?php include("common/legal.html"); ?>
 </footer>
 
 <script>
-
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
-
-function w3_open() {
-    if (mySidebar.style.display === 'block') {
-        mySidebar.style.display = 'none';
-    } else {
-        mySidebar.style.display = 'block';
-    }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
-</script>
-
-<!--Autoflow the needed divs-->
-<script src="/assets/js/autoflow.js"></script>
-<script>
-  autoflow();
-</script>
-
-<!-- Smooth Scrolling thanks to https://github.com/cferdinandi/smooth-scroll -->
-<!-- Get minor updates and patch fixes within a major version -->
-<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
-<script>
-	var scroll = new SmoothScroll('a[href*="#"]');
-</script>
 
 </body>
 </html>
