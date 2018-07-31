@@ -1,0 +1,5 @@
+# Social Media Redirects
+Redirect 301 /facebook https://www.facebook.com/zotbotics/
+Redirect 301 /insta /instagram
+Redirect 301 /instagram https://www.instagram.com/zotboticsatuci/
+Redirect 301 /slack http://zotbotics.slack.com/signup
