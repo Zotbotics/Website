@@ -1,3 +1,5 @@
+Options -Indexes
+
 # Social Media Redirects
 Redirect 301 /facebook https://www.facebook.com/zotbotics/
 Redirect 301 /insta /instagram
@@ -21,3 +23,8 @@ Redirect 301 /constitution.pdf /files/constitution.pdf
 
 # Redirect all html to php
 RedirectMatch 301 (.*)\.html$ $1.php
+
+
+# Set Error Documents
+ErrorDocument 404 /error/404.php
+ErrorDocument 403 /error/403.php
