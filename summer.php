@@ -66,6 +66,9 @@ input:invalid {
    we can answer any questions through email or the <a href="zotbotics.slack.com">
   Slack!</a>
 <p>
+<p><a href="/sdp2k18" class="w3-button w3-accent w3-text-white w3-padding-large w3-large w3-margin-top w3-transition-medium">
+  RSVP on Facebook
+</a></p>
 <br>
 </div>
 
