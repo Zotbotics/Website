@@ -88,7 +88,10 @@ input:invalid {
         <i class="fa fa-building w3-margin w3-jumbo"></i>
         <p class="w3-xlarge">Where</p>
           <p class="autoflow" autoflowid=0>
-            UCI Engineering, Room TBD
+            <a href="http://www.studentcenter.uci.edu/study-spaces/">Courtyard
+              Study Lounge (CSL)</a> 4 and 5,
+            <br>
+            (next to Blood Donation Center)
           </p>
        </div>
     </div>
