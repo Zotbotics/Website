@@ -57,7 +57,7 @@ input:invalid {
 <p class="w3-xxlarge"> What's the Plan? </p>
 <br>
 <p>
-  We'll be meeting at UCI (Location TBD) on August 11th at 10am to start looking
+  We'll be meeting at UCI on August 11th at 10am to start looking
   to brainstorm and engineer our first project! The key for this project is creativity
   as the true direction is up to the members. We'll be meeting to talk over several
   ideas and split into groups to come up with several proposals, ultimately building
