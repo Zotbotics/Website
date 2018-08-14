@@ -57,11 +57,10 @@ input:invalid {
 <p class="w3-xxlarge"> What's the Plan? </p>
 <br>
 <p>
-  We'll be meeting at UCI on August 11th at 10am to start looking
-  to brainstorm and engineer our first project! The key for this project is creativity
-  as the true direction is up to the members. We'll be meeting to talk over several
-  ideas and split into groups to come up with several proposals, ultimately building
-  the one we all like best. All the outlines are laid out in the
+  We'll be meeting at UCI on August 25th at 10am to continue
+  brainstorming and engineering our first project! The key for this project is creativity
+  as the true direction is up to the members. We'll be meeting to talk over the parts and design
+  of our project. All the outlines are laid out in the
   <a href="/sdp-rules.pdf">Project Specifications</a> document, and as usual
    we can answer any questions through email or the <a href="zotbotics.slack.com">
   Slack!</a>
@@ -104,7 +103,7 @@ input:invalid {
         <i class="fa fa-clock w3-margin w3-jumbo"></i>
         <p class="w3-xlarge">When</p>
           <p class="autoflow" autoflowid=0>
-            Saturday, August 11th. 10:00 AM
+            Saturday, August 25th. 10:00 AM
           </p>
        </div>
     </div>
