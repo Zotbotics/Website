@@ -59,14 +59,14 @@ if(!isset($_POST['name']) ||
   $message .= $_POST["message"];
 
   $sent = mail($to, $subject, $message, $headers);
-  
+
 if ($sent) {
   syslog(LOG_INFO, "Contact form received from " . $_POST["email"]);
   echo 'Message Sent!<br>';
   echo "Timestamp: ". gmdate("M d Y H:i:s", time());
 }
 else{
-    syslog(LOG_WARN, "Error processing contact form from " . $_POST["email"]);
+    syslog(LOG_WARNING, "Error processing contact form from " . $_POST["email"]);
     echo 'Message NOT sent :(. If this problem recurrs, contact webmaster@zotbotics.org';
 }
 
