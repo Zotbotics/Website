@@ -9,7 +9,7 @@ Redirect 301 /slack http://zotbotics.slack.com/signup
 
 # Summer Redirect
 Redirect 301 /summer /summer.html
-Redirect 301 /sdp2k18 https://www.facebook.com/events/476510402820216/
+Redirect 301 /sdp2k18 https://www.facebook.com/events/1303234523151474/
 # Backwards compatibility
 Redirect 301 /summer /summer.html
 
