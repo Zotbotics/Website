@@ -4,6 +4,7 @@
 $name = $email = $subject = $message = $headers = "";
 // $message = "Im not empty!!!";
 
+include common/header.html;
 
 function died($error) {
     // your error code can go here
@@ -62,7 +63,7 @@ if(!isset($_POST['name']) ||
 
 if ($sent) {
   syslog(LOG_INFO, "Contact form received from " . $_POST["email"]);
-  echo 'Message Sent!<br>';
+  echo 'Message Sent! We\'ll be getting back to you shortly...<br><br>';
   echo "Timestamp: ". gmdate("M d Y H:i:s", time());
 }
 else{
@@ -71,5 +72,7 @@ else{
 }
 
 
+include common/footer.html;
+include common/legal.html;
 
 ?>

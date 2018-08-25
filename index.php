@@ -322,17 +322,10 @@ input:invalid {
   <h3 class="w3-center">CONTACT</h3>
   <p class="w3-center w3-large">Questions? Let's get in touch. Use the form
      below or email us at zotbotics@gmail.com
-  </p>
-  <br>
-  <a class="w3-accent w3-shadow w3-large" href="https://docs.google.com/forms/d/e/1FAIpQLScnDl63KdRrqTzqVLqjS-C75RiggsEhYIRGmR1fEZbQGj7Yag/viewform?usp=sf_link">
-    <button class="w3-button w3-text-white w3-transition-medium w3-padding-large">
-      Contact Us
-    </button>
-  </a>
 
    <div class="w3-row-padding" style="margin-top:64px">
      <div class="w3-margin-left w3-margin-right">
-      <form method="POST" action="contact.php">
+      <form method="POST" target="mailresult" action="contact.php">
         <p><input class="w3-input w3-border" type="text" name="name" id="name" placeholder="Name" required name="Name"></p>
         <p><input class="w3-input w3-border" type="email" name="email" id="email" placeholder="Email" required name="Email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required></p>
         <p><input class="w3-input w3-border" type="text" name="subject" id="subject" placeholder="Subject" required name="Subject"></p>
@@ -341,9 +334,9 @@ input:invalid {
            <button class="w3-button w3-black" type="submit">
              <i class="fa fa-paper-plane"></i> SEND MESSAGE
            </button>
-
          </p>
        </form>
+       <iframe style="width:80%;" name="mailresult" frameBorder="0">Browser not compatible.</iframe>
      </div>
    </div>
 </div>
