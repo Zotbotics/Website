@@ -26,6 +26,8 @@ Redirect 301 /sdp-rules.pdf /files/sdp-rules.pdf
 # Redirect all html to php
 RedirectMatch 301 (.*)\.html$ $1.php
 
+# Fundraiser Form Redirect
+Redirect 301 /fundraiser https://zotfunder.give.uci.edu/project/11031
 
 # Set Error Documents
 ErrorDocument 404 /error/404.php
