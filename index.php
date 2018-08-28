@@ -184,7 +184,7 @@ input:invalid {
             Despite having worked with Solidworks, machining, and design,
             his favorite part of robotics is data analysis!
           </p>
-          </div><p><a href="mailto:ijahmed@uci.edu" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
+          </div><p><a href="mailto:inkiad@zotbotics.org" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
         </div>
       </div>
     </div>
@@ -202,7 +202,7 @@ input:invalid {
             robotics. He looks forward to applying his FRC and project skills
             to a project that is both engaging and educational.
           </p>
-          </div><p><a href="mailto:skammerm@uci.edu" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
+          </div><p><a href="mailto:spencer@zotbotics.org" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
         </div>
       </div>
     </div>
@@ -220,7 +220,7 @@ input:invalid {
             She is a beginner to robotics, but is excited to learn and grow with
             the club!
           </p>
-          </div><p><a href="mailto:jessl22@uci.edu" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
+          </div><p><a href="mailto:jessica@zotbotics.org" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
         </div>
       </div>
     </div>
@@ -239,7 +239,7 @@ input:invalid {
             Innovation Challenge and is excited to jump into the college level
             of robotics competition!
           </p>
-          </div><p><a href="mailto:raneym@uci.edu" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
+          </div><p><a href="mailto:micah@zotbotics.org" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
         </div>
       </div>
     </div>
@@ -257,7 +257,7 @@ input:invalid {
                She looks forward to helping the club grow and making an impact
                in the robotics scene.
             </p>
-            </div><p><a href="mailto:yixual8@uci.edu" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
+            </div><p><a href="mailto:angela@zotbotics.org" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
           </div>
         </div>
     </div>
@@ -273,7 +273,7 @@ input:invalid {
                   Greta is a First Tech Challenge (FTC) alum from San Jose and excited to continue
                   robotics at UCI. She likes night exploration and eating sweets.
                 </p>
-                </div><p><a href="mailto:gretay@uci.edu" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
+                </div><p><a href="mailto:greta@zotbotics.org" class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</a></p>
               </div>
             </div>
     </div>
