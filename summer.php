@@ -103,7 +103,7 @@ input:invalid {
         <i class="fa fa-clock w3-margin w3-jumbo"></i>
         <p class="w3-xlarge">When</p>
           <p class="autoflow" autoflowid=0>
-            Saturday, August 25th. 10:00 AM
+            Tuesday, September 4th. 5:00 PM
           </p>
        </div>
     </div>
