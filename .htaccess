@@ -28,6 +28,7 @@ RedirectMatch 301 (.*)\.html$ $1.php
 
 # Fundraiser Form Redirect
 Redirect 301 /fundraising https://zotfunder.give.uci.edu/project/11031
+Redirect 301 /donate https://zotfunder.give.uci.edu/project/11031
 
 # Set Error Documents
 ErrorDocument 404 /error/404.php
