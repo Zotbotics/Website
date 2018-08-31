@@ -57,9 +57,9 @@ input:invalid {
 <p class="w3-xxlarge"> What's the Plan? </p>
 <br>
 <p>
-  We'll be meeting at UCI on August 25th at 10am to continue
-  brainstorming and engineering our first project! The key for this project is creativity
-  as the true direction is up to the members. We'll be meeting to talk over the parts and design
+  We'll be meeting at UCI on September 4th at 5pm for our 3rd meeting to begin building 
+  our first project! The key for this project is creativity as the true direction is up to 
+  the members. We'll also be meeting to talk over the electronic design
   of our project. All the outlines are laid out in the
   <a href="/sdp-rules.pdf">Project Specifications</a> document, and as usual
    we can answer any questions through email or the <a href="zotbotics.slack.com">
