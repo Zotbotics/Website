@@ -91,7 +91,7 @@ input:invalid {
         <p class="w3-xlarge">Where</p>
           <p class="autoflow" autoflowid=0>
             <a href="http://www.studentcenter.uci.edu/study-spaces/">Courtyard
-              Study Lounge (CSL)</a> 4 and 5,
+              Study Lounge (CSL)</a> 8,
             <br>
             (next to Blood Donation Center)
           </p>
