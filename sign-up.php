@@ -43,6 +43,12 @@ input:invalid {
 input[type=text]:focus {
     border: 3px solid #555;
 }
+.card{
+  margin-left: 20%;
+  width: 60%;
+  margin-right: 20%
+  background-color: #0064a4
+}
 
 </style>
 
@@ -52,20 +58,21 @@ input[type=text]:focus {
 <div class="bgimg-summer w3-display-container w3-center w3-padding-64" id="home">
   <div class="w3-display-middle" style="width:90%">
     <p class="w3-jumbo">Sign up for our newsletter!</p>
-
       <!-- <span class="w3-xlarge">Sign up for our newsletter!</span> -->
-      <div class="w3-card-4">
-        <form class="w3-container" action="/action_page.php" target="_blank">
-          <p><input class="form w3-input w3-border w3-hover-border-blue" type="text" placeholder="Name" required name="Name"></p>
-          <p><input class="form w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-          <p><input class="form w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-          <p><input class="form w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-          <p>
-            <button class="w3-button w3-black" type="submit">
-              <i class="fa fa-paper-plane"></i> SEND MESSAGE
-            </button>
-          </p>
-        </form>
+      <div class="row">
+        <div class="w3-card-4 w3-sand card">
+          <form class="w3-container" action="/action_page.php" target="_blank">
+            <p><input class="form w3-input w3-border w3-hover-border-gray" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="form w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="form w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input class="form w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+            <p>
+              <button class="w3-button w3-black" type="submit">
+                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+              </button>
+            </p>
+          </form>
+        </div>
       </div>
   </div>
 </div>
