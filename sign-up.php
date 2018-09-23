@@ -63,9 +63,9 @@ input[type=text]:focus {
         <div class="w3-card-4 w3-sand card">
           <form class="w3-container" action="/action_page.php" target="_blank">
             <p><input class="form w3-input w3-border w3-hover-border-gray" type="text" placeholder="Name" required name="Name"></p>
-            <p><input class="form w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-            <p><input class="form w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-            <p><input class="form w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+            <p><input class="form w3-input w3-border w3-hover-border-gray" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="form w3-input w3-border w3-hover-border-gray" type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input class="form w3-input w3-border w3-hover-border-gray" type="text" placeholder="Message" required name="Message"></p>
             <p>
               <button class="w3-button w3-black" type="submit">
                 <i class="fa fa-paper-plane"></i> SEND MESSAGE
