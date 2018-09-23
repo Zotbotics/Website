@@ -36,17 +36,17 @@ input:invalid {
 }
 
 .form {
-  margin-left: 25%;
-  width: 50%;
-  margin-right: 25%
+  margin-left: 24%;
+  width: 52%;
+  margin-right: 24%
 }
 input[type=text]:focus {
     border: 3px solid #555;
 }
 .card{
-  margin-left: 20%;
-  width: 60%;
-  margin-right: 20%
+  margin-left: 23%;
+  width: 54%;
+  margin-right: 23%
   background-color: #0064a4
 }
 
