@@ -65,36 +65,7 @@ input:focus {
 
 <!-- Header with full-height image -->
 <div class="bgimg w3-display-container w3-center w3-padding-64" id="home">
-  <!-- <div class="w3-display-middle" style="width:90%">
 
-
-    <p class="w3-jumbo">Sign up for our newsletter!</p>
-      <span class="w3-xlarge">Sign up for our newsletter!</span>
-      <div class="row">
-        <div class="w3-card-4 w3-sand card">
-          <form class="w3-container" action="/action_page.php" target="_blank">
-            <p><input class="form w3-input w3-border w3-hover-border-gray" type="text" placeholder="Name" required name="Name"></p>
-            <p><input class="form w3-input w3-border w3-hover-border-gray" type="text" placeholder="Email" required name="Email"></p>
-            <p><input class="form w3-input w3-border w3-hover-border-gray" type="text" placeholder="Subject" required name="Subject"></p>
-            <p><input class="form w3-input w3-border w3-hover-border-gray" type="text" placeholder="Message" required name="Message"></p>
-            <p>
-              <button class="w3-button w3-black" type="submit">
-                <i class="fa fa-paper-plane"></i> SEND MESSAGE
-              </button>
-            </p>
-          </form>
-        </div>
-      </div>
-  </div> -->
-  <!-- Begin MailChimp Signup Form -->
-
-  <!-- Begin MailChimp Signup Form -->
-  <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css"> -->
-  <!-- <style type="text/css">
-  	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-  	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-  	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-  </style> -->
   <div class="w3-display-middle" style="width:90%; max-width:750px;">
     <p class="w3-center w3-xxlarge">Sign up for our newsletter!</p>
     <div id="mc_embed_signup">
@@ -129,7 +100,7 @@ input:focus {
           	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8193a74c89f2c1415b6168cb8_3a7b6dadfd" tabindex="-1" value=""></div>
             <div class="clear"><br><button class="w3-button w3-text-color-white w3-color-grey" type="submit">
-                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                <i class="fa fa-paper-plane"></i> SUBSCRIBE
               </button>
             </div>
           </div>
