@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Zotbotics | Sign Up</title>
+<title>Zotbotics | Join</title>
 <?php include("common/header.html"); ?>
 <head>
 <style>
