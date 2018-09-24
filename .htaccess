@@ -28,6 +28,8 @@ Redirect 301 /blog https://blog.zotbotics.org/
 # Join link
 Redirect 301 /join /join.php
 
+# Presentation Link
+Redirect 301 /present https://docs.google.com/presentation/d/1UlFom3e64LztD3FnNo-YDJBvpi0dfzzaquDb0yEipT8/edit?usp=sharing
 
 # Backwards compatibility
 Redirect 301 /constitution.pdf /files/constitution.pdf
