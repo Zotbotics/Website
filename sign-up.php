@@ -16,7 +16,7 @@ input:invalid {
     border: 2px solid red;
 }
 .bgimg-summer {
-  background-image: url('/assets/images/zooters.jpg');
+  background-image: url('/assets/images/working.jpg');
   height: 100%;
   background-position: center;
   background-size: cover;
