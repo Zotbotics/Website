@@ -10,6 +10,15 @@ body, html {
     line-height: 1.8;
 }
 /* Full height image header */
+.bgimg-black {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: black;
+  background-blend-mode: multiply;
+  background-color: rgb(0,0,0); // Tint color
+}
 .bgimg-1 {
   background-image: url('/assets/images/background.jpg');
   height: 100%;
@@ -58,7 +67,7 @@ input:invalid {
 <body>
 <?php include("common/navbar.html"); ?>
 <!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container" id="home">
+<header class="bgimg-black w3-display-container" style="max-width:2500px; height:100%;" id="home">
 
 
       <!-- Automatic Slideshow Images -->
@@ -67,7 +76,11 @@ input:invalid {
           <img src="/assets/images/textlogo.png" alt="ZOTBOTICS" style="width:90%;" class="w3-image">
           <br>
           <br>
-          <span class="w3-xlarge">A student organization at UCI dedicated to all things robotics!
+          <span class="w3-xlarge">A student organization at UCI dedicated to all things robotics.
+            <br>
+            Meetings Friday 5pm @ the <a href="https://www.google.com/maps/place/ANTrepreneur+Center/@33.6461593,-117.8390359,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcde0df42dd4fb:0x2616bc3a39f5bfb3!8m2!3d33.6461549!4d-117.8368472">
+              ANTrepreneur Center</a>
+          </span>
           <p><a href="/join" class="w3-button w3-accent w3-text-white w3-padding-large w3-large w3-margin-top w3-transition-medium">
             Join Us
           </a></p>
