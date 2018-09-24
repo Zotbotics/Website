@@ -79,7 +79,7 @@ input:invalid {
           <p class="w3-jumbo">Summer Design Project</p>
           <span class="w3-xlarge">We put the Zot in ZotBuster this summer... Read about the process!</span>
           <p><a href="/blog" class="w3-button w3-accent w3-text-white w3-padding-large w3-large w3-margin-top w3-transition-medium">
-            Blog
+            SDP Blog
           </a></p>
         </div>
       </div>
