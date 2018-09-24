@@ -11,6 +11,16 @@ body, html {
 }
 /* Full height image header */
 .bgimg-1 {
+  background-image: url('/assets/images/background.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  background-blend-mode: multiply;
+  background-color: rgb(70,70,70); // Tint color
+}
+.bgimg-2 {
   background-image: url('/assets/images/summer.jpg');
   height: 100%;
   background-position: center;
@@ -50,20 +60,34 @@ input:invalid {
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container" id="home">
 
-  <div class="w3-display-middle w3-text-white" style="width:100%; text-align:center">
-    <img src="/assets/images/textlogo.png" alt="ZOTBOTICS" style="width:60%" class="w3-image">
-    <br>
-    <br>
-    <span class="w3-xlarge">Get ready for a challenge!</span>
-    <p><a href="/summer.html" class="w3-button w3-accent w3-text-white w3-padding-large w3-large w3-margin-top w3-transition-medium">
-      Summer Design Project
-    </a></p>
-  </div>
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <a href="https://www.facebook.com/zotbotics/"><i class="fab fa-facebook w3-hover-opacity"></i></a>
-    <a href="https://www.instagram.com/zotboticsatuci/"><i class="fab fa-instagram w3-hover-opacity"></i></a>
-    <a href="http://zotbotics.slack.com/signup"><i class="fab fa-slack w3-hover-opacity"></i></a>
-  </div>
+
+      <!-- Automatic Slideshow Images -->
+      <div class="bgimg-1 mySlides w3-animate-right w3-display-container w3-text-white w3-center">
+        <div class="w3-display-middle w3-center" style="max-width:900px; width:100%;">
+          <img src="/assets/images/textlogo.png" alt="ZOTBOTICS" style="width:90%;" class="w3-image">
+          <br>
+          <br>
+          <span class="w3-xlarge">A student organization at UCI dedicated to all things robotics!
+          <p><a href="/join" class="w3-button w3-accent w3-text-white w3-padding-large w3-large w3-margin-top w3-transition-medium">
+            Join Us
+          </a></p>
+        </div>
+      </div>
+
+      <div class="bgimg-2 mySlides w3-animate-right w3-display-container w3-text-white w3-center">
+        <div class="w3-display-middle w3-center" style="max-width:900px; width:100%;">
+          <p class="w3-jumbo">Summer Design Project</p>
+          <span class="w3-xlarge">We put the Zot in ZotBuster this summer... Read about the process!</span>
+          <p><a href="/blog" class="w3-button w3-accent w3-text-white w3-padding-large w3-large w3-margin-top w3-transition-medium">
+            Blog
+          </a></p>
+        </div>
+      </div>
+
+
+    <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+  	  <?php include('common/social.html');?>
+    </div>
 </header>
 
 <!-- About Section -->
@@ -309,6 +333,21 @@ input:invalid {
 </footer>
 
 <script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
 
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 6000);
+}
+</script>
 </body>
 </html>
