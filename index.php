@@ -192,9 +192,9 @@ input:invalid {
 </div>
 
 <!-- Board Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="board">
+<div class="w3-container w3-light-grey" style="padding:128px 16px;" id="board">
   <h3 class="w3-center">THE BOARD</h3>
-  <div class="w3-row-padding" style="margin-top:64px">
+  <div class="w3-row-padding w3-left-align" style="margin-top:64px;">
     <div class="w3-col l4 m6 w3-margin-bottom">
       <div class="w3-card w3-white">
         <img src="/assets/images/board/inkiad.jpg" alt="Inkiad" style="width:100%">
@@ -302,9 +302,6 @@ input:invalid {
             </div>
     </div>
   </div>
-
-
-
 </div>
 
 
