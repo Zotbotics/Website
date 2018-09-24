@@ -22,6 +22,9 @@ Redirect 301 /constitution /files/constitution.pdf
 # Receipts processing
 Redirect 301 /receipts https://goo.gl/forms/S4lZnC5Hz9PMPaSi2
 
+# Blog link
+Redirect 301 /blog https://blog.zotbotics.org/
+
 # Backwards compatibility
 Redirect 301 /constitution.pdf /files/constitution.pdf
 Redirect 301 /sdp-rules.pdf /files/sdp-rules.pdf
