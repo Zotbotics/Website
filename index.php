@@ -78,8 +78,7 @@ input:invalid {
           <br>
           <span class="w3-xlarge">A student organization at UCI dedicated to all things robotics.
             <br>
-            Meetings Friday 5pm @ the <a href="https://www.google.com/maps/place/ANTrepreneur+Center/@33.6461593,-117.8390359,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcde0df42dd4fb:0x2616bc3a39f5bfb3!8m2!3d33.6461549!4d-117.8368472">
-              ANTrepreneur Center</a>
+            Meetings Monday 6pm @ TBD
           </span>
           <p><a href="/join" class="w3-button w3-accent w3-text-white w3-padding-large w3-large w3-margin-top w3-transition-medium">
             Join Us
