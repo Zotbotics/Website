@@ -6,6 +6,7 @@ Redirect 301 /facebook https://www.facebook.com/zotbotics/
 Redirect 301 /insta /instagram
 Redirect 301 /instagram https://www.instagram.com/zotboticsatuci/
 Redirect 301 /slack http://zotbotics.slack.com/signup
+Redirect 301 /contact https://docs.google.com/forms/d/e/1FAIpQLScnDl63KdRrqTzqVLqjS-C75RiggsEhYIRGmR1fEZbQGj7Yag/viewform?usp=sf_link
 
 # Summer Redirect
 Redirect 301 /summer /summer.html
