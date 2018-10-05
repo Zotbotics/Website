@@ -23,6 +23,9 @@ Redirect 301 /constitution /files/constitution.pdf
 # Receipts processing
 Redirect 301 /receipts https://goo.gl/forms/S4lZnC5Hz9PMPaSi2
 
+# Vex U Feedback Form
+Redirect 301 /feedback https://goo.gl/forms/DTJPZnoSl7nG98X22
+
 # Blog link
 Redirect 301 /blog https://blog.zotbotics.org/
 
