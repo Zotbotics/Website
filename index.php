@@ -321,9 +321,9 @@ input:invalid {
 <div class="w3-center w3-container w3-text-white bgimg-contact" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
   <p class="w3-center w3-large">Questions? Let's get in touch. Use the form
-     below or email us at zotbotics@gmail.com
+     below or email us at zotbotics@gmail.com</p>
 
-   <center><div class="w3-row-padding" style="margin-top:64px; max-width:750px;">
+   <center><div class="w3-row-padding" style="max-width:750px;">
      <div class="w3-margin-left w3-margin-right">
       <form method="post" action="/contact.php" target="print_popup"
                onsubmit="window.open('about:blank','print_popup','width=500,height=200');">
