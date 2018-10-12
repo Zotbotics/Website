@@ -4,7 +4,7 @@
 $name = $email = $subject = $message = $headers = "";
 // $message = "Im not empty!!!";
 
-include common/header.html;
+echo "<title />Contact Zotbotics</title />";
 
 function died($error) {
     // your error code can go here
@@ -20,7 +20,6 @@ function died($error) {
 // validation expected data exists
 if(!isset($_POST['name']) ||
     !isset($_POST['email']) ||
-    !isset($_POST['subject']) ||
     !isset($_POST['message'])) {
     died('We are sorry, but there appears to be a problem with the form you submitted.');
 }
@@ -29,7 +28,6 @@ if(!isset($_POST['name']) ||
 
     $name = $_POST['name']; // required
     $email = $_POST['email']; // required
-    $subject = $_POST['subject']; // required
     $message = $_POST['message']; // required
 
   $error_message = "";
@@ -49,10 +47,10 @@ if(!isset($_POST['name']) ||
 
   //set up email content
   $to = "zotbotics@gmail.com";
-  $subject = "[CONTACT FORM] " . $_POST["subject"];
+  $subject = "[WEBSITE] Message from  $name ($email)";
   $headers = "Reply-to: $email";
   $message = "Message from  $name ($email) \r\n";
-  $message .= "Timestamp: ". gmdate("M d Y H:i:s", time());
+  $message .= "UTC Timestamp: ". gmdate("M d Y H:i:s", time());
   $message .= "\r\n\r\n";
   $message .= "MESSAGE BELOW\r\n";
   $message .= "=============================";
@@ -68,11 +66,7 @@ if ($sent) {
 }
 else{
     syslog(LOG_WARNING, "Error processing contact form from " . $_POST["email"]);
-    echo 'Message NOT sent :(. If this problem recurrs, contact webmaster@zotbotics.org';
+    echo 'Message NOT sent :(. If this problem recurrs, contact a board member directly';
 }
-
-
-include common/footer.html;
-include common/legal.html;
 
 ?>

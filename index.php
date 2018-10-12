@@ -323,22 +323,22 @@ input:invalid {
   <p class="w3-center w3-large">Questions? Let's get in touch. Use the form
      below or email us at zotbotics@gmail.com
 
-   <div class="w3-row-padding" style="margin-top:64px">
+   <center><div class="w3-row-padding" style="margin-top:64px; max-width:750px;">
      <div class="w3-margin-left w3-margin-right">
-      <form method="POST" target="mailresult" action="contact.php">
-        <p><input class="w3-input w3-border" type="text" name="name" id="name" placeholder="Name" required name="Name"></p>
-        <p><input class="w3-input w3-border" type="email" name="email" id="email" placeholder="Email" required name="Email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required></p>
-        <p><input class="w3-input w3-border" type="text" name="subject" id="subject" placeholder="Subject" required name="Subject"></p>
-        <p><textarea class="w3-input w3-border" rows="5" type="text" name="message" id="message" placeholder="Message" required name="Message"></textarea>
-        <p>
-           <button class="w3-button w3-black" type="submit">
-             <i class="fa fa-paper-plane"></i> SEND MESSAGE
-           </button>
+      <form method="post" action="/contact.php" target="print_popup"
+               onsubmit="window.open('about:blank','print_popup','width=500,height=200');">
+          <p><input class="w3-input w3-border" type="text" name="name" id="name" placeholder="Name" required name="Name"></p>
+          <p><input class="w3-input w3-border" type="email" name="email" id="email" placeholder="Email" required name="Email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required></p>
+          <p><textarea class="w3-input w3-border" rows="5" type="text" name="message" id="message" placeholder="Message" required name="Message"></textarea>
+          <p>
+             <button class="w3-button w3-black" type="submit">
+               <i class="fa fa-paper-plane"></i> SEND MESSAGE
+             </button>
          </p>
        </form>
-       <iframe style="width:80%;" name="mailresult" frameBorder="0">Browser not compatible.</iframe>
+
      </div>
-   </div>
+   </div></center>
 </div>
 
 <!-- Footer -->
