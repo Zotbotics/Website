@@ -78,7 +78,8 @@ input:invalid {
           <br>
           <span class="w3-xlarge">A student organization at UCI dedicated to all things robotics.
             <br>
-            Meetings Wednesday 8pm @ TBD
+              General Meetings Wednesday 8pm @ SSL 140
+              VEX U Tuesday 6pm @ ANTrepreneur Center
           </span>
           <p><a href="/join" class="w3-button w3-accent w3-text-white w3-padding-large w3-large w3-margin-top w3-transition-medium">
             Join Us
