@@ -32,8 +32,12 @@ Redirect 301 /blog https://blog.zotbotics.org/
 # Join link
 Redirect 301 /join /join.php
 
+#Ant Center Sign In Link
+Redirect 301 /signin https://docs.google.com/forms/d/e/1FAIpQLSdgrJfIIMEG-d6nhIc7Gn_tfhOBSPsXBfZneDy22mjMxXXX2Q/viewform
+
 # Presentation Link
 Redirect 301 /present https://docs.google.com/presentation/d/1UlFom3e64LztD3FnNo-YDJBvpi0dfzzaquDb0yEipT8/edit?usp=sharing
+Redirect 301 /vex3 https://docs.google.com/presentation/d/1cnTf253HvQe4s4oZIU8f140-p7H7xA8q3deVuSp6ruY/edit?usp=sharing
 
 # Survey Link
 Redirect 301 /survey https://docs.google.com/forms/d/e/1FAIpQLSenziybgCy1isz3HU5gfKo02Nt4Ik0ICozu_K6nU9BDIDJ-8A/viewform?usp=sf_link
