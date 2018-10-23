@@ -17,6 +17,9 @@ Redirect 301 /summer /summer.html
 # Interest Form Redirect
 Redirect 301 /interested https://docs.google.com/forms/d/e/1FAIpQLSeOT5D6_1Hef3ULSHCiIz4FVYoDIIog0-RVhsu41iPuyPov-w/viewform?usp=sf_link
 
+# Calendar redirect
+Redirect 301 /calendar /calendar.php
+
 # Constitution Redirect
 Redirect 301 /constitution /files/constitution.pdf
 
