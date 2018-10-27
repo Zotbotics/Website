@@ -198,7 +198,7 @@ input:invalid {
     </div>
   </div>
   <br>
-  <a class="w3-accent w3-shadow w3-large" href="https://docs.google.com/forms/d/e/1FAIpQLSeOT5D6_1Hef3ULSHCiIz4FVYoDIIog0-RVhsu41iPuyPov-w/viewform?usp=sf_link">
+  <a class="w3-accent w3-shadow w3-large" href="/join">
     <button class="w3-button w3-text-white w3-transition-medium w3-padding-large">
       I'm Interested!
     </button></a>
