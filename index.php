@@ -158,7 +158,7 @@ input:invalid {
 
 <!-- Join Section -->
 <div class="w3-container w3-center w3-dark-grey bgimg-circuit" style="padding:128px 16px" id="join">
-  <h3>SIGN UP</h3>
+  <h3>GET INVOLVED</h3>
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-third w3-section">
       <ul class="w3-ul w3-white w3-hover-shadow">
