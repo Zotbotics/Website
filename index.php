@@ -105,7 +105,7 @@ input:invalid {
 </header>
 
 <!-- About Section -->
-<div class="w3-container" style="padding:128px 16px" id="about">
+<div class="w3-container" style="padding:64px 16px" id="about">
   <h3 class="w3-center">ABOUT US</h3>
   <p class="w3-center w3-large">What makes Zotbotics unique?</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
@@ -203,7 +203,7 @@ input:invalid {
 </div>
 
 <!-- Board Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px;" id="board">
+<div class="w3-container w3-light-grey" style="padding:64px 16px;" id="board">
   <h3 class="w3-center">THE BOARD</h3>
   <div class="w3-row-padding w3-left-align" style="margin-top:64px;">
     <div class="w3-col l4 m6 w3-margin-bottom">
